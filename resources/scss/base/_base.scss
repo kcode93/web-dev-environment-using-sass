@@ -1,22 +1,22 @@
 body{
   font-family: 'Georgia', sans-serif;
   font-size: 14px;
-  color: #666;
+  color: $base-Color;
   line-height: 1.5em;
-  background-color: #f4f4f4;
+  background-color: $base-bgColor;
 }
 
 #container{
   width: 80%;
   margin: 20px auto;
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 1px solid $border-Color;
   border-radius: 5px;
 }
 
 header{
-  background-color: #003d99;
-  color: #fff;
+  background-color: $primary-bgColor;
+  color: $primary-Color;
   height: 100px;
   h1{
     padding: 20px 0 0 10px;
@@ -26,8 +26,8 @@ header{
 
 nav{
   height: 50px;
-  background-color: #000;
-  color: #fff;
+  background-color: $se;
+  color: $primary-Color;
   font-size: 1rem;
   padding-top: 10px;
   li{
@@ -35,7 +35,7 @@ nav{
     padding: 20px 15px;
   }
   a{
-    color: #fff;
+    color: $primary-Color;
     text-decoration: none;
   }
 }
