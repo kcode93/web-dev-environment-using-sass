@@ -1,0 +1,20 @@
+nav{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: $secondary-bgColor;
+  color: $primary-Color;
+  font-size: 1rem;
+  li{
+    display: inline;
+
+  }
+  a{
+    color: $primary-Color;
+    text-decoration: none;
+    padding: 10px;
+    &:hover{
+      background-color: $tertiary-bgColor;
+    }
+  }
+}

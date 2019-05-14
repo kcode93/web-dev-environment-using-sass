@@ -12,38 +12,9 @@ body{
   overflow: hidden;
   border: 1px solid $border-Color;
   border-radius: 5px;
-}
-
-header{
-  background-color: $primary-bgColor;
-  color: $primary-Color;
-  height: 100px;
-  h1{
-    padding: 20px 0 0 10px;
-    font-size: 2rem;
-  }
-}
-
-nav{
-  height: 50px;
-  background-color: $se;
-  color: $primary-Color;
-  font-size: 1rem;
-  padding-top: 10px;
-  li{
-    display: inline;
-    padding: 20px 15px;
-  }
-  a{
-    color: $primary-Color;
-    text-decoration: none;
-  }
+  @include border-radius(5px); 
 }
 
 section{
   min-height: 200px;
-}
-
-footer{
-  text-align: center;
 }
